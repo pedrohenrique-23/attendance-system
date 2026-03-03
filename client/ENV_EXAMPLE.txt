@@ -1,0 +1,11 @@
+# Frontend Environment Variables
+# Copy this file to .env.local and fill in the values
+
+# Backend API URL
+# For local development: http://localhost:3001
+# For production: https://your-backend-domain.com
+VITE_API_URL=http://localhost:3001
+
+# Optional: Analytics and other frontend-specific vars
+VITE_APP_TITLE=Sistema SupPaciente
+VITE_APP_LOGO=/logo.svg

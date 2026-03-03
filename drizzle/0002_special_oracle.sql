@@ -1,0 +1,1 @@
+ALTER TABLE `cases` ADD `monitorName` varchar(255);

@@ -1,0 +1,24 @@
+# Backend Environment Variables
+# Copy this file to .env and fill in the values
+
+# Database Configuration (PostgreSQL/Supabase)
+DATABASE_URL=postgresql://user:password@db.host.supabase.co:5432/postgres?sslmode=require
+
+# Server Configuration
+NODE_ENV=development
+PORT=3001
+
+# CORS Configuration
+CORS_ORIGIN=http://localhost:5173,https://your-frontend-domain.com
+
+# JWT Secret for session management
+JWT_SECRET=your-secret-key-here
+
+# Optional: OAuth Configuration (if needed)
+OAUTH_SERVER_URL=https://api.manus.im
+VITE_APP_ID=your-app-id
+
+# Optional: AWS S3 Configuration (if using file storage)
+AWS_REGION=us-east-1
+AWS_ACCESS_KEY_ID=your-access-key
+AWS_SECRET_ACCESS_KEY=your-secret-key
